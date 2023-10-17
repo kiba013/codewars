@@ -15,7 +15,7 @@ public class StringRepeat {
         String result = "";
         if (repeat == 0) {
             return "";
-        } else if (string.equals("")) {
+        } else if (string.isEmpty()) {
             return "";
         } else {
             for (int i = 0; i < repeat; i++) {
